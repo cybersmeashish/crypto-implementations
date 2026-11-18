@@ -1,0 +1,26 @@
+[
+  {
+    "asset_id": "supplier-tls",
+    "owner": "Platform owner",
+    "algorithm": "ECDH",
+    "purpose": "Transport key agreement",
+    "dependency": "Synthetic supplier endpoint",
+    "confidentiality_years": 7
+  },
+  {
+    "asset_id": "release-signing",
+    "owner": "",
+    "algorithm": "RSA",
+    "purpose": "Release signature",
+    "dependency": "Synthetic signing service",
+    "confidentiality_years": 0
+  },
+  {
+    "asset_id": "pqc-pilot",
+    "owner": "Cryptography owner",
+    "algorithm": "ML-KEM",
+    "purpose": "Key establishment pilot",
+    "dependency": "Implementation not yet selected",
+    "confidentiality_years": 7
+  }
+]
